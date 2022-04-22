@@ -13,4 +13,10 @@ const questions = [{
     type: "input",
     message: "",
     name: ""
-}]
+}];
+
+function writeToFile(filename, data) {}
+
+function init() {}
+
+init();
