@@ -15,8 +15,10 @@ const questions = [{
     name: ""
 }];
 
+//function to write README file
 function writeToFile(filename, data) {}
 
+//function to initialize the app
 function init() {}
 
 init();
