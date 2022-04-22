@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require('fs');
 const util = require("util");
 
-const readmeGenerator = require('./readmeGenerator');
+const readmeGenerator = require('./generateMarkdown.js');
 
 //questions for users
 const questions = [{
