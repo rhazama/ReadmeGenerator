@@ -1,52 +1,105 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const util = require('util');
+const generateMarkdown = require("./utils/generateMarkdown.js");
+const writeFile = util.promisify(fs.writeFile);
 const { resolve } = require('path');
 
 //questions for users
-const questions = [{
+const questions = () => {
+    return inquirer.prompt([{
     type: 'input',
     message: 'What is the title of the project?',
     name: 'title',
-    // validate: (value)=>{if(value == ""){return 'please enter a title'}},
+    validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('please enter a title');
+            return false;
+        }}
 }, {
     type: 'input',
-    message: 'How do you install your app?',
-    name: 'installation',
-    // validate: (value)=>{if(value == ""){return 'please enter a value'}},
-}, {
-    type: 'input',
-    message: 'Describe your project',
+    message: 'Write a description for your project',
     name: 'description',
-    // validate: (value)=>{if(value == ""){return 'please enter a value'}},
+    validate: descInput => {
+        if (descInput) {
+            return true;
+        } else {
+            console.log('please enter a description');
+            return false;
+        }}
 }, {
     type: 'input',
-    message: 'Your email to contact',
-    name: 'contact',
-    // validate: (value)=>{if(value == ""){return 'please enter a value'}},
-}];
+    message: 'Describe the instillation process if applicable: ',
+    name: 'instillation',
+}, {
+    type: 'input',
+    message: 'usage',
+    name: 'what is this projects usage?',
+ 
+}, {
+    type: 'input',
+    message: 'Chose the license used for this project: ',
+    name: 'license',
+    choices: [
+        "Apache",
+        "Academic",
+        "GNU",
+        "ISC",
+        "MIT",
+        "Mozilla",
+        "Open"
+    ]
+}, {
+    type: 'input',
+    message: 'Who contributed to this project?',
+    name: 'contributing',
+}, {
+    type: 'input',
+    message: 'Write test included',
+    name: 'tests',
+},{
+    type: 'input',
+    message: 'If the user has an issue who/ how do I contact?',
+    name: 'questions',
+}, {
+    type: 'input',
+    message: 'What is your Github Username?',
+    name: 'username',
+    validate: username => {
+        if (username) {
+            return true;
+        } else {
+            console.log('Please enter a Github username');
+            return false;
+        }
+    }
+}, {
+    type: 'input',
+    message: 'Enter an email address for the user to contact you: ',
+    name: 'email',
+}
+])};
 
 // function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile('./utils/generateMarkdown.js', fileName, err => {
-        if (err) {
-            reject(err);
-            return;
-        }
-    resolve({
-        ok: true,
-        message: 'File created!'
-    });
-});
-};
+function init() {
+    try {
+        const answers = await questions();
+        const info = generateMarkdown(answers);
+        await writeFile('./dist/README.md', info);
+        console.log('README.md created!');
+    } catch(err) {
+        console.log(err);
+    }
+}
 
 //function to initialize the app
-function init() {
-    inquirer.prompt(questions)
-    .then((res) => {
-        console.log(res)
-    })
-}
+// function init() {
+//     inquirer.prompt(questions)
+//     .then((res) => {
+//         console.log(res)
+//     })
+// }
 
 init();
