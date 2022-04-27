@@ -3,7 +3,6 @@ const fs = require('fs');
 const util = require('util');
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const writeFile = util.promisify(fs.writeFile);
-const { resolve } = require('path');
 
 //questions for users
 const questions = () => {
@@ -61,7 +60,7 @@ const questions = () => {
     name: 'tests',
 },{
     type: 'input',
-    message: 'If the user has an issue who/ how do I contact?',
+    message: 'Enter contact info if the user has questions',
     name: 'questions',
 }, {
     type: 'input',
