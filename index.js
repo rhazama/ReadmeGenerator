@@ -34,8 +34,8 @@ const questions = () => {
     name: 'instillation',
 }, {
     type: 'input',
-    message: 'usage',
-    name: 'what is this projects usage?',
+    message: 'what is this projects usage?',
+    name: 'usage',
  
 }, {
     type: 'input',
@@ -82,7 +82,7 @@ const questions = () => {
 ])};
 
 // function to write README file
-function init() {
+async function init() {
     try {
         const answers = await questions();
         const info = generateMarkdown(answers);
