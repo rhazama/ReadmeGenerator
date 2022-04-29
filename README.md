@@ -10,6 +10,10 @@ This node application helps the user generate their own professional and persona
 
 <br />
 ## Contributing
+<<<<<<< HEAD
+=======
+<br />
+>>>>>>> 1eca8ea043b8d3e1870b952b12ed42091583e4fb
 Ryan Hazama
 
 ## Questions
