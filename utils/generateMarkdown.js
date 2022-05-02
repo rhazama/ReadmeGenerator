@@ -25,7 +25,7 @@ ${answers.description}
 ## Installation
 ${answers.installation}
 ## Usage
-${answers.usage}
+You can checkout the application through the following link: ${answers.usage}
 ## License
 ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 <br />

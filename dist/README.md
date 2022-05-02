@@ -1,9 +1,9 @@
 
-<h1 align="center">Book Worm Pro </h1>
+<h1 align="center">budgetLiving </h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-BookWormPro is
+Budget Living helps users keep track of their spending even without internet connection
 
 ## Table of Contents
 - [Description](#description)
@@ -14,9 +14,9 @@ BookWormPro is
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-undefined
+You can checkout the application through the following link:
 ## Usage
-For user looking for more information on books
+For those who are looking to watch their spending
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
@@ -26,7 +26,6 @@ Ryan Hazama
 ## Tests
 n/a
 ## Questions
-rhazama01@gmail.com<br />
-:octocat: Find me on GitHub: [rhazama](https://github.com/rhazama)<br />
-Email me with any questions: rhazama01@gmail.com<br />
+Find me on GitHub: [rhazama](https://github.com/rhazama)<br />
+Let me answer your questions at: rhazama01@gmail.com<br />
     

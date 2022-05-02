@@ -30,7 +30,7 @@ const questions = () => {
         }}
 }, {
     type: 'input',
-    message: 'Describe the instillation process if applicable: ',
+    message: 'Enter deployed link: ',
     name: 'instillation',
 }, {
     type: 'input',
