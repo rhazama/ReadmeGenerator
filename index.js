@@ -58,10 +58,6 @@ const questions = () => {
     type: 'input',
     message: 'Write test included',
     name: 'tests',
-},{
-    type: 'input',
-    message: 'Enter contact info if the user has questions',
-    name: 'questions',
 }, {
     type: 'input',
     message: 'What is your Github Username?',

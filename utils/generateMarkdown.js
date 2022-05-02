@@ -35,7 +35,6 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 ## Questions
-${answers.questions}<br />
 Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 Let me answer your questions at: ${answers.email}<br />
     `;
