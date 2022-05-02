@@ -10,7 +10,7 @@ function generateMarkdown(answers) {
     return `
 <h1 align="center">${answers.title} </h1>
 
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-${answer.license}-brightgreen)<br />
 ## Description
 ${answers.description}
 
@@ -36,7 +36,7 @@ ${answers.contributing}
 ${answers.tests}
 ## Questions
 ${answers.questions}<br />
-:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 Email me with any questions: ${answers.email}<br />
     `;
 }
