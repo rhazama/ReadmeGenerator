@@ -10,7 +10,7 @@ function generateMarkdown(answers) {
     return `
 <h1 align="center">${answers.title} </h1>
 
-![badge](https://img.shields.io/badge/license-${answer.license}-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
 ${answers.description}
 
@@ -27,7 +27,7 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 ## License
-![badge](https://img.shields.io/badge/license-${answers.license}-green)
+![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
 <br />
 This application is covered by the ${answers.license} license.
 ## Contributing

@@ -1,8 +1,9 @@
 
-<h1 align="center">Readme Generator </h1>
+<h1 align="center">Book Worm Pro </h1>
 
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-Node app that creates readmes
+BookWormPro is
 
 ## Table of Contents
 - [Description](#description)
@@ -15,13 +16,13 @@ Node app that creates readmes
 ## Installation
 undefined
 ## Usage
-n/a
+For user looking for more information on books
 ## License
-![badge](https://img.shields.io/badge/license-[insert license]-green)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the [insert license] license.
+This application is covered by the MIT license.
 ## Contributing
-ryan
+Ryan Hazama
 ## Tests
 n/a
 ## Questions
