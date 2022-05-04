@@ -31,7 +31,7 @@ const questions = () => {
 }, {
     type: 'input',
     message: 'Enter deployed link: ',
-    name: 'instillation',
+    name: 'installation',
 }, {
     type: 'input',
     message: 'what is this projects usage?',

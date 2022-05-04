@@ -1,5 +1,5 @@
 
-<h1 align="center">budgetLiving </h1>
+<h1 align="center">Budget Living </h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
