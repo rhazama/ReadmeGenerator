@@ -1,9 +1,9 @@
 
-<h1 align="center">Budget Living </h1>
+<h1 align="center">My Notes App </h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-Budget Living helps users keep track of their spending even without internet connection
+Helps the user take and store notes"
 
 ## Table of Contents
 - [Description](#description)
@@ -14,9 +14,9 @@ Budget Living helps users keep track of their spending even without internet con
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-You can checkout the application through the following link:
+
 ## Usage
-For those who are looking to watch their spending
+You can checkout the application through the following link: For users that would like to take notes and store them in one place
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
