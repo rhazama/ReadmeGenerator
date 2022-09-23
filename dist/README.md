@@ -1,9 +1,9 @@
 
-<h1 align="center">My Notes App </h1>
+<h1 align="center">Ecommerce Website </h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-Helps the user take and store notes"
+Sample e-commerce website
 
 ## Table of Contents
 - [Description](#description)
@@ -14,9 +14,9 @@ Helps the user take and store notes"
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-
+n/a
 ## Usage
-You can checkout the application through the following link: For users that would like to take notes and store them in one place
+You can checkout the application through the following link: n/a
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
@@ -27,5 +27,5 @@ Ryan Hazama
 n/a
 ## Questions
 Find me on GitHub: [rhazama](https://github.com/rhazama)<br />
-Let me answer your questions at: rhazama01@gmail.com<br />
+Send any questions you may have to: rhazama01@gmail.com<br />
     
