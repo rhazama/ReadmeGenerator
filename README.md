@@ -15,6 +15,15 @@ This node application helps the user generate their own professional and persona
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
+This application requires Node and can be installed with inquirer dependencies.
+<br />
+<br />
+Once downloaded, in terminal type "node index.js" and the application should start running.
+<br />
+<br />
+Instructions for Node download can be found through this link: https://www.npmjs.com/package/inquirer
+<br />
+Youtube instructional video after Node Installation: https://www.youtube.com/watch?v=cqJQ9wbUQto
 
 ## Usage
 Users looking for readme templates for their github repositories.
